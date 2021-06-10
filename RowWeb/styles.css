@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: cornsilk;
+    font-size: 16px;
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: #d7d4db;
+    background-color: #373738;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%231188bd' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container {
+    width: 85%;
+    max-width: 850%;
+    margin: 0 auto;
+}
+/* NAVIGATION*/
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+}
+
+.nav-brand {
+    width: 50px;
+}
+
+/* NAV LEFT*/
+.nav-main ul {
+    display: flex;
+    background: rgb(6, 91, 124);
+}
+
+.nav-main ul li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav-main ul li a {
+    padding: 6px;
+}
+.nav-main ul li a:hover {
+    border-bottom: 2px solid dodgerblue;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+     margin-left: 20px;
+}
+
+/* GENERAL*/
+.general {
+    display: grid;
+    grid-area:auto;
+    gap: 15px;
+    margin: 20px auto;
+    background: ghostwhite;
+}
+
+/* OFERTAS */
+.ofertas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 20px ;
+}
+
+.ofertas img {
+    width: 70%;
+    height: 160px;
+}
+
+.ofertas a {
+    padding: 10px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.ofertas .ofertas-one {
+    background: cadetblue;
+    padding: 10px 10px;
+}
+
+.ofertas .ofertas-two {
+    background: cadetblue;
+    padding: 10px 10px;
+}
+
+.ofertas .ofertas-three {
+    background: cadetblue;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOCIAL */
+.social {
+    margin: 50px;
+}
+
+.social p {
+    color: rgb(0, 154, 243);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 2rem;
+}
+
+.footer {
+    background: #2f3140;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
